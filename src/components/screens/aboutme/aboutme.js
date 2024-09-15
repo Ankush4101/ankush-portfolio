@@ -148,9 +148,9 @@ const AboutMe = () => (
           </svg>
 
           <img
-            src="/images/profile.jpg"
+            src="https://i.postimg.cc/pL7h0m3J/profile.jpg"
             style={{ objectFit: 'cover' }}
-            alt=""
+            alt="A N K U S H"
           />
           <Text tag="h5" variant="title">
             Cricket🏏 - VolleyBall🏐 - Badminton🏸 Enthusiast
