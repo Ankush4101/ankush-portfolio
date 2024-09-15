@@ -13,12 +13,12 @@ function Logo() {
         <svg
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
-          width="68" 
+          width="68"
           height="60"
           viewBox="0 0 389.000000 346.000000"
           preserveAspectRatio="xMidYMid meet"
         >
-          <g 
+          <g
             transform="translate(0.000000,346.000000) scale(0.100000,-0.100000)"
             fill="#000000"
             stroke="none"
@@ -52,4 +52,3 @@ function Logo() {
 }
 
 export default Logo;
-
