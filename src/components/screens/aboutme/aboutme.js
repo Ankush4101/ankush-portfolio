@@ -1,8 +1,8 @@
-import React from "react";
-import Box from "../../foundation/box";
-import Text from "../../foundation/text";
-import Link from "../../common/link/link";
-import Container, { Description, Image, Info } from "./style";
+import React from 'react';
+import Box from '../../foundation/box';
+import Text from '../../foundation/text';
+import Link from '../../common/link/link';
+import Container, { Description, Image, Info } from './style';
 
 const AboutMe = () => (
   <>
@@ -11,28 +11,28 @@ const AboutMe = () => (
         About Me
       </Text>
       <Box
-        display='flex'
+        display="flex"
         flexDirection={
           {
-            xs: 'column',
-            md: 'row',
+            xs: "column",
+            md: "row",
           }
         }
-        justifyContent='space-between'
-        alignItems='center'
+        justifyContent="space-between"
+        alignItems="center"
       >
         <Info>
           <Description>
             <Text tag="p" variant="paragraph3">
               Hi, I`m Ankush, Graduate Student of
-              <a href='https://www.concordia.ca/' className='external_link'>
+              <a href="https://www.concordia.ca/" className="external_link">
                 Concordia University
               </a>
               {' '}
               and, a passionate software engineer with a knack for creating
               innovative and efficient solutions. With a background in
               <b> Full Stack Development </b>
-              and interest in 
+              and interest in
               <b>cloud technologies</b>
               {' '}
               , I thrive in
@@ -40,7 +40,7 @@ const AboutMe = () => (
               problem-solving are key. I am currently seeking a co-op
               internship opportunity.
             </Text>
-            <Text tag='p' variant='paragraph3'>
+            <Text tag="p" variant="paragraph3">
               My technical expertise includes proficiency in
               {' '}
               <b>
@@ -57,7 +57,7 @@ const AboutMe = () => (
           </Description>
           <Description>
             <Link
-              href='https://drive.google.com/file/d/1s8-ors1wYaXhEI15mUxjvgn98PtVxOGF/view?usp=sharing'
+              href="https://drive.google.com/file/d/1s8-ors1wYaXhEI15mUxjvgn98PtVxOGF/view?usp=sharing"
               target="_blank"
               className="resume"
             >
@@ -148,7 +148,7 @@ const AboutMe = () => (
           </svg>
 
           <img
-            src='/images/profile.jpg'
+            src="/images/profile.jpg"
             style={{ objectFit: 'cover' }}
             alt=""
           />
@@ -172,7 +172,7 @@ const AboutMe = () => (
             </Text>
             <div>
               Renetech Digital, New York, USA
-              <a href='https://rentechdigital.com/' className='external_link'>
+              <a href="https://rentechdigital.com/" className="external_link">
                 <svg
                   stroke="#fff"
                   fill="none"
@@ -222,7 +222,7 @@ const AboutMe = () => (
                   Created, tested, and implemented 7+ plugins, including OAuth
                   2.0, Multi-language, Notification, Cart View, Easy-sell,
                   Upsell for COD, Review, and Apple Pay connection, using
-                  <b> MVC architecture</b> 
+                  <b> MVC architecture</b>
                   and
                   <b> Agile methodology.</b>
                 </li>
@@ -267,12 +267,12 @@ const AboutMe = () => (
                   Developed a model to detect high-risk areas for fire
                   occurrences using
                   <b>
-                    {" "}
+                    {' '}
                     Earth Observation and meteorological Remote Sensing Data
                   </b>
-                  {" "}
+                  {' '}
                   , with a
-                  <b> 70%</b> 
+                  <b> 70%</b>
                   accuracy.
                 </li>
                 <li>
@@ -287,7 +287,8 @@ const AboutMe = () => (
                   This model can provide vital facts to 2+ organizations,
                   including
                   <b> the forest service and weather forecasting divisions</b>
-                   ,
+                  {' '}
+                  ,
                   enabling early prediction of high-risk fire zones.
                 </li>
               </ul>
