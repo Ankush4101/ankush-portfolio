@@ -1,5 +1,5 @@
 
-<h1 align='center'><a href="https://carol-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" title="Veja o Portfolio"><img src="https://i.postimg.cc/FKTg7cLc/PORTFOLIO-4.png" alt="Portfolio" width="800" height=""/></a></h1>
+<h1 align='center'><a href="https://ankush-desai-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" title="Veja o Portfolio"><img src="https://i.postimg.cc/FKTg7cLc/PORTFOLIO-4.png" alt="Portfolio" width="800" height=""/></a></h1>
 
 <p align="center">
  <a href="#-About">About</a> •
@@ -14,7 +14,7 @@ Languages and technologies used</a> •
 <br>
 <br>
 
-<h3 align="center"><a href="https://ankush4101.github.io/ankush-portfolio/" target="_blank" rel="noopener noreferrer">Click here to check out the Portfolio!</a></h3><br>
+<h3 align="center"><a href="https://ankush-desai-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">Click here to check out the Portfolio!</a></h3><br>
 <br>
 
 ---
