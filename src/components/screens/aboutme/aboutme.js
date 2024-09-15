@@ -123,7 +123,6 @@ const AboutMe = () => (
         
             <div className="work_description">
               <ul>
-             
                 <li>
                 <br />
                 Designed software that allowed clients to create 
@@ -161,14 +160,8 @@ const AboutMe = () => (
               </ul>
             </div>
             <br />
-          
           </div>
-
-
-
           <div className="section_content">
-         
-         
           <br />
             <Text tag="h3" variant="subTitle">Machine Learning Research Intern</Text>
             <div>
