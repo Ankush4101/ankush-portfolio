@@ -12,10 +12,12 @@ const AboutMe = () => (
       </Text>
       <Box
         display="flex"
-        flexDirection={{
+        flexDirection={
+          {
           xs: "column",
           md: "row",
-        }}
+          }
+        }
         justifyContent="space-between"
         alignItems="center"
       >
@@ -25,14 +27,15 @@ const AboutMe = () => (
               Hi, I`m Ankush, Graduate Student of
               <a href="https://www.concordia.ca/" className="external_link">
                 Concordia University
-              </a>{" "}
+              </a>
+              {" "}
               and, a passionate software engineer with a knack for creating
               innovative and efficient solutions. With a background in
               <b> Full Stack Development </b>
               and interest in <b>cloud technologies</b>, I thrive in
               collaborative environments where continuous learning and
-              problem-solving are key. I am currently seeking a co-op internship
-              opportunity.
+              problem-solving are key. I am currently seeking a co-op
+              internship opportunity.
             </Text>
             <Text tag="p" variant="paragraph3">
               My technical expertise includes proficiency in{" "}
