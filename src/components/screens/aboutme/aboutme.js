@@ -47,7 +47,7 @@ const AboutMe = () => (
             </Text>
           </Description>
           <Description>
-            <Link href="https://drive.google.com/file/d/1ZEOs3z8H-UA3xiLQIqN6FvYqfweofsMV/view?usp=sharing" target="_blank" className="resume">
+            <Link href="https://drive.google.com/file/d/1s8-ors1wYaXhEI15mUxjvgn98PtVxOGF/view?usp=sharing" target="_blank" className="resume">
               <Text tag="span" variant="paragraph2" color="fonts.main">
                 Resume
                 <span className="svgicon">
