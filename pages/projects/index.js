@@ -8,7 +8,6 @@ function ProjetoScreen({ repositorios }) {
     <Projetos repositorios={repositorios} />
   );
 }
-
 ProjetoScreen.defaultProps = {};
 
 export default websitePageHOC(ProjetoScreen, {
@@ -18,7 +17,6 @@ export default websitePageHOC(ProjetoScreen, {
     },
   },
 });
-
 
 export async function getStaticProps() {
   const repositorios = await fetch('https://api.github.com/users/Ankush4101/repos')

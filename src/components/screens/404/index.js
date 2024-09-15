@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from '../../common/button/button';
 import Container404, { Erro, GoBack } from './style';
-
 function NotFound() {
   return (
     <Container404>
@@ -15,5 +14,4 @@ function NotFound() {
     </Container404>
   );
 }
-
 export default NotFound;
