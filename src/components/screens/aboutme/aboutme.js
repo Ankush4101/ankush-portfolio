@@ -11,34 +11,38 @@ const AboutMe = () => (
         About Me
       </Text>
       <Box
-        display="flex"
+        display='flex'
         flexDirection={
           {
-          xs: "column",
-          md: "row",
+            xs: 'column',
+            md: 'row',
           }
         }
-        justifyContent="space-between"
-        alignItems="center"
+        justifyContent='space-between'
+        alignItems='center'
       >
         <Info>
           <Description>
             <Text tag="p" variant="paragraph3">
               Hi, I`m Ankush, Graduate Student of
-              <a href="https://www.concordia.ca/" className="external_link">
+              <a href='https://www.concordia.ca/' className='external_link'>
                 Concordia University
               </a>
-              {" "}
+              {' '}
               and, a passionate software engineer with a knack for creating
               innovative and efficient solutions. With a background in
               <b> Full Stack Development </b>
-              and interest in <b>cloud technologies</b>, I thrive in
+              and interest in 
+              <b>cloud technologies</b>
+              {' '}
+              , I thrive in
               collaborative environments where continuous learning and
               problem-solving are key. I am currently seeking a co-op
               internship opportunity.
             </Text>
-            <Text tag="p" variant="paragraph3">
-              My technical expertise includes proficiency in{" "}
+            <Text tag='p' variant='paragraph3'>
+              My technical expertise includes proficiency in
+              {' '}
               <b>
                 Java, Python, C++, C#, .Net, React.js, Spring, Node.js, Next.js,
                 Flutter, Angular
@@ -53,7 +57,7 @@ const AboutMe = () => (
           </Description>
           <Description>
             <Link
-              href="https://drive.google.com/file/d/1s8-ors1wYaXhEI15mUxjvgn98PtVxOGF/view?usp=sharing"
+              href='https://drive.google.com/file/d/1s8-ors1wYaXhEI15mUxjvgn98PtVxOGF/view?usp=sharing'
               target="_blank"
               className="resume"
             >
@@ -144,8 +148,8 @@ const AboutMe = () => (
           </svg>
 
           <img
-            src="/images/profile.jpg"
-            style={{ objectFit: "cover" }}
+            src='/images/profile.jpg'
+            style={{ objectFit: 'cover' }}
             alt=""
           />
           <Text tag="h5" variant="title">
@@ -168,7 +172,7 @@ const AboutMe = () => (
             </Text>
             <div>
               Renetech Digital, New York, USA
-              <a href="https://rentechdigital.com/" className="external_link">
+              <a href='https://rentechdigital.com/' className='external_link'>
                 <svg
                   stroke="#fff"
                   fill="none"
@@ -191,26 +195,35 @@ const AboutMe = () => (
                 <li>
                   <br />
                   Designed software that allowed clients to create
-                  <b> e-commerce apps</b> through a simple
-                  <b> drag-and-drop</b> interface, resulting in a<b> 70%</b>{" "}
-                  increase in development speed and a<b> 50%</b> improvement in
+                  <b> e-commerce apps</b>
+                  through a simple
+                  <b> drag-and-drop</b>
+                  interface, resulting in a
+                  <b> 70%</b>
+                  {' '}
+                  increase in development speed and a
+                  <b> 50%</b>
+                  improvement in
                   customer satisfaction.
                 </li>
                 <li>
                   Reduced an application’s initial loading time by
-                  <b> 37% (8 sec to under 5 sec)</b> by storing application
+                  <b> 37% (8 sec to under 5 sec)</b>
+                  by storing application
                   build into cache memory.
                 </li>
                 <li>
                   Optimised the initial load time of Deep-Link Redirection for a
                   given product by
-                  <b> 50%</b>.
+                  <b> 50%</b>
+                  .
                 </li>
                 <li>
                   Created, tested, and implemented 7+ plugins, including OAuth
                   2.0, Multi-language, Notification, Cart View, Easy-sell,
                   Upsell for COD, Review, and Apple Pay connection, using
-                  <b> MVC architecture</b> and
+                  <b> MVC architecture</b> 
+                  and
                   <b> Agile methodology.</b>
                 </li>
               </ul>
@@ -246,7 +259,9 @@ const AboutMe = () => (
                 <li>
                   <br />
                   Successfully completed the research project titled
-                  <b> Early forest fire detection</b> using satellite data.
+                  <b> Early forest fire detection</b>
+                  {' '}
+                  using satellite data.
                 </li>
                 <li>
                   Developed a model to detect high-risk areas for fire
@@ -254,19 +269,25 @@ const AboutMe = () => (
                   <b>
                     {" "}
                     Earth Observation and meteorological Remote Sensing Data
-                  </b>{" "}
-                  , with a<b> 70%</b> accuracy.
+                  </b>
+                  {" "}
+                  , with a
+                  <b> 70%</b> 
+                  accuracy.
                 </li>
                 <li>
                   Monitored drought using the Standard Precipitation Index (SPI)
                   to predict fire-prone regions, supplemented by 10,000+ forest
                   fire points from
-                  <b> FIRMS MODIS</b> satellite data.
+                  <b> FIRMS MODIS</b>
+                  {' '}
+                  satellite data.
                 </li>
                 <li>
                   This model can provide vital facts to 2+ organizations,
                   including
-                  <b> the forest service and weather forecasting divisions</b> ,
+                  <b> the forest service and weather forecasting divisions</b>
+                   ,
                   enabling early prediction of high-risk fire zones.
                 </li>
               </ul>
