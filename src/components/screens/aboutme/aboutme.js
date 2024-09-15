@@ -14,8 +14,8 @@ const AboutMe = () => (
         display="flex"
         flexDirection={
           {
-            xs: "column",
-            md: "row",
+            xs: 'column',
+            md: 'row',
           }
         }
         justifyContent="space-between"
