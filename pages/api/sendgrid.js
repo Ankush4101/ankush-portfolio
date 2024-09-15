@@ -1,5 +1,6 @@
 import sendgrid from '@sendgrid/mail';
 import dotenv from 'dotenv';
+
 dotenv.config();
 const API_KEY = process.env.SENDGRID_API_KEY;
 sendgrid.setApiKey(API_KEY);
@@ -20,4 +21,5 @@ async function sendEmail(req, res) {
     return res.status(error.statusCode || 500).json({ error: error.message });
   }
 }
+
 export default sendEmail;
