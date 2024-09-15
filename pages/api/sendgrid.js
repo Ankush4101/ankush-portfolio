@@ -7,7 +7,7 @@ sendgrid.setApiKey(API_KEY);
 async function sendEmail(req, res) {
   try {
     // console.log('Sending email with data:', req.body);
-      await sendgrid.send({
+    await sendgrid.send({
       from: 'ankushgaming4101@gmail.com', // Ensure this is a verified sender
       to: 'ankushdesai40101.ca@gmail.com', // Ensure this is a valid recipient
       subject: `email de: ${req.body.name}`,

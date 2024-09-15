@@ -32,10 +32,13 @@ const AboutMe = () => (
               {' '}
               <b>cloud technologies</b>
               , I thrive in collaborative environments
-              where continuous learning and problem-solving are key. I am currently seeking a co-op internship opportunity.
+              where continuous learning and problem-solving are key. 
+              {' '}
+              I am currently seeking a co-op internship opportunity.
             </Text>
             <Text tag="p" variant="paragraph3">
-              My technical expertise includes proficiency in
+              My technical expertise includes proficiency 
+              in
               {' '}
               <b>Java, Python, C++, C#, .Net, React.js, Spring, Node.js, Next.js, Flutter, Angular</b>
               , and relational
@@ -100,7 +103,6 @@ const AboutMe = () => (
           <div className="section_content">
           <br />
             <Text tag="h3" variant="subTitle">Software Developer</Text>
-            {/* <div className="work_title">Software Developer - Cloud</div> */}
             <div>
             Renetech Digital, New York, USA
               <a href="https://rentechdigital.com/" className="external_link">
